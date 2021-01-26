@@ -1,7 +1,7 @@
 <?php
 
 // connect to the database
-$con = mysqli_connect('localhost','id15769358_asyrafkz','yN1awqlo=ILTwijq','id15769358_kametubevid');
+$con = mysqli_connect('localhost','root','','kametubevid'); // changes depend on system
 
 
 ?>
