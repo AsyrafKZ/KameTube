@@ -6,7 +6,7 @@ header("Content-type: text/css; charset: UTF-8");
 if(isset($_POST['submit']))
 {
     // variables for thumbnail generation
-    $ffmpeg = "/public_html/ffmpeg/bin/ffmpeg"; // changes depend on system. take note.
+    $ffmpeg = "C:/xampp/htdocs/kametube/bin/ffmpeg"; // changes depend on system. take note.
     $customImage = $_FILES['inpFile']['size'];
     
     // variables for file uploading
